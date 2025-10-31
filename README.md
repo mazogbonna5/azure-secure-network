@@ -1,2 +1,2 @@
-# azure-secure-network
-How to build a secure network in Azure using PowerShell
+# Azure Secure Network Lab (PowerShell)
+How to build a secure network in Azure *using **PowerShell***
