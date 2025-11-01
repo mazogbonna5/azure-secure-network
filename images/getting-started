@@ -1,0 +1,2 @@
+Log in to the Azure Portal and select the Azure Terminal at the top right (">_" symbol).
+Once in the Azure Terminal, toggle to PowerShell (to confirm in PowerShell it should display "Bash" at the top left). 
