@@ -37,7 +37,7 @@ How to build a secure network in Azure using **PowerShell**
 5. Create a Network Security Group (NSG)
   - **[$nsg = New-AzNetworkSecurityGroup -ResourceGroupName RG-SecureNet -Location EastUS -Name NSG-FrontEnd]**
 6. Add Secure Rules *(Allow HTTPS Only)*
-  - **[Add-AzNetworkSecurityRuleConfig -Name "Allow-HTTPS" -NetworkSecurityGroup $nsg -Protocol "Tcp" -Direction "Inbound" -Priority 100 -SourceAddressPrefix "*" -SourcePortRange "*" -DestinationAddressPrefix "*" -DestinationPortRange 443 -Access "Allow"]**
+  - **[Add-AzNetworkSecurityRuleConfig -Name "Allow-HTTPS" -NetworkSecurityGroup $nsg -Protocol "Tcp" -Direction "Inbound" -Priority 100 -SourceAddressPrefix " * " -SourcePortRange " * " -DestinationAddressPrefix " * " -DestinationPortRange 443 -Access "Allow"]**
   - ***Update the Network Security Group (NSG)***
     - **[$nsg | Set-AzNetworkSecurityGroup]**
 7. Associate NSG with Subnet
