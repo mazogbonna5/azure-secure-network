@@ -4,10 +4,10 @@ How to build a secure network in Azure using **PowerShell**
 ---
 
 # Objective
-a. Deploy a secure Azure Virtual Network (VNet) using PowerShell.
-- Configure a Network Security Group (NSG).
-- Enforce inbound security rules.
-- Demonstrate cloud automation, security best practices, and infrastructure‑as‑code (IaC) skills.
+A. Deploy a secure Azure Virtual Network (VNet) using PowerShell.
+B. Configure a Network Security Group (NSG).
+C. Enforce inbound security rules.
+D. Demonstrate cloud automation, security best practices, and infrastructure‑as‑code (IaC) skills.
 
 ---
 
