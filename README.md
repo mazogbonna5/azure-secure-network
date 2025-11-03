@@ -1,4 +1,4 @@
-# Azure Secure Network Lab (PowerShell)
+# Securing a Virtual Network with Azure PowerShell
 How to build a secure network in Azure using **PowerShell**
 
 ---
