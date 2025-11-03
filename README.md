@@ -1,4 +1,4 @@
-# Securing a Virtual Network with Azure PowerShell
+# Building a securing a Virtual Network with Azure PowerShell
 How to build a secure network in Azure using **PowerShell**
 
 ---
